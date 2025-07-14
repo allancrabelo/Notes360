@@ -67,30 +67,32 @@ flowchart LR
 
 ## 🧑‍💻 Skills Demonstrated and Applied
 ```
-Dynamic creation of HTML grade tables with semantic markup.
+     - Dynamic creation of HTML grade tables with semantic markup.
 
-Application of modern CSS for responsive and accessible styling.
+     - Application of modern CSS for responsive and accessible styling.
 
-Development of modular JavaScript logic, including:
+     - Development of modular JavaScript logic, including:
 
-Reusable functions for weighted grade calculations.
+     - Reusable functions for weighted grade calculations.
 
-Conditional logic for pass/fail determination.
+     - Conditional logic for pass/fail determination.
 
-Efficient DOM manipulation for smooth, real-time updates.
+     - Efficient DOM manipulation for smooth, real-time updates.
 
-Robust input handling and validation to prevent errors.
+     - Robust input handling and validation to prevent errors.
 
-Integration of UI/UX prototypes from Figma for visual and functional alignment.
+     - Integration of UI/UX prototypes from Figma for visual and functional alignment.
 ```
 ---
 
 ## ⚡ Getting Started
 Clone this repository.
 
-Open index.html in your preferred browser.
+Open `index.html` in your preferred browser.
 
 Add your activities and grades, and watch Notes360 streamline your academic management with intelligent automation.
 
 ## 🌟 Transform Your Academic Management with Notes360!
 Accelerate workflows, eliminate manual errors, and provide students and educators with a modern, easy-to-use tool that makes tracking academic performance effortless.
+
+STACKS: `JavaScript`, `HTML` and `CSS`.
