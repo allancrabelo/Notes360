@@ -2,6 +2,10 @@
 
 **Notes360** is a smart, scalable, and responsive platform designed to revolutionize grade management for schools, universities, and online courses. It automates weighted grade calculations, supports custom grading criteria, and generates detailed performance reports, streamlining academic management and enhancing student progress tracking.
 
+<img src="https://github.com/user-attachments/assets/8a87f7ea-7801-42af-abdf-418f9caf4c73" 
+     alt="image" 
+     style="display: block; margin: 0 auto; max-width: 100%; height: auto;" />
+
 ---
 
 ## 🚀 Why Choose Notes360?
