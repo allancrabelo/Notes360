@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #141414;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 20px;
+}
+
+.sidebar .material-icons {
+  font-size: 22px;
+  color: #cfcfcf;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  padding: 15px 25px;
+  gap: 20px;
+  border-bottom: 1px solid #222;
+}
+
+.new-entry {
+  background-color: #007aff;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  background: transparent;
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  color: #4894ff;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  background-color: #111;
+  gap: 16px;
+  border-bottom: 1px solid #222;
+  position: relative;
+}
+
+
+.filters button {
+  background: transparent;
+  border: 1px solid #333;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sorting {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.sorting strong {
+  color: white;
+  font-weight: normal;
+}
+
+.entries {
+  flex: 1;
+  margin: 20px;
+  border: 1px solid #222;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.entries section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.entries h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.entries form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.entries form input,
+.entries form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #111;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.entries form button {
+  background-color: #007aff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.entries table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #111;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.entries table thead {
+  background-color: #1b1b1b;
+}
+
+.entries table th,
+.entries table td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  color: #ddd;
+  font-weight: normal;
+}
+
+.entries table tr:last-child td {
+  border-bottom: none;
+}
+
+.entries table td:last-child {
+  font-weight: bold;
+}
+
+.entries table tfoot {
+  background-color: #1b1b1b;
+}
+
+.entries table tfoot td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-top: 1px solid #333;
+  color: #ddd;
+  font-weight: normal;
+}

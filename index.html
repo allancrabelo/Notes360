@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes360</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+	<nav class="sidebar">
+	  <span class="material-icons">apps</span>
+	  <span class="material-icons">mail</span>
+	  <span class="material-icons">access_time</span>
+	  <span class="material-icons">people</span>
+	  <span class="material-icons">folder</span>
+	  <span class="material-icons">event_note</span>
+	</nav>
+
+	<main class="main-content">
+	  <header class="topbar">
+		<button class="new-entry">+ New Entry</button>
+		<input class="search-bar" placeholder="Search by names, contacts or location..."/>
+		<div class="logo">Notes360</div>
+	  </header>
+
+	  <section class="filters">
+		<button>Name</button>
+		<button>Contact</button>
+		<button>Location</button>
+		<div class="sorting">
+		  <span>Sorting by</span>
+		  <strong>Alphabetic</strong>
+		  <span class="material-icons">filter_list</span>
+		</div>
+	  </section>
+
+	  <section class="entries">
+		<section>
+			<h1>GPA Calculator</h1>
+			<form id="form-activity">
+				<input type="text" id="activity-name" required placeholder="Activity Name">
+				<input type="number" id="activity-grade" required placeholder="Grade" min="0" max="10">
+				<button type="submit">Add +</button>
+			</form>
+			<table>
+				<thead>
+					<tr>
+						<th>Activity Name</th>
+						<th>Activity Grade</th>
+						<th>Aproved</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>GPA</td>
+						<td id="final-grade-value">-</td>
+						<td id="final-grade-result"><span class="passed result">-</span></td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+	  </section>
+	</main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
